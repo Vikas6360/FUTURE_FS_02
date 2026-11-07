@@ -2,6 +2,23 @@
 
 A simple and lightweight Lead Management CRM for capturing website inquiries and managing customer leads.
 
+## Screenshots
+
+### 1. Website Contact Form
+Public inquiry form where visitors can send their details and message, which is automatically saved as a new lead.
+
+![Website Contact Form](screenshots/contact-page.png)
+
+### 2. Admin Dashboard
+Protected dashboard featuring real-time statistics counters, instant keyword search, status filtering, and inline status updates.
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### 3. Lead Details & Follow-up Notes
+Detailed view of an individual lead showing original message, quick status dropdown, interaction history, and follow-up date scheduling.
+
+![Lead Details and Notes](screenshots/lead-detail.png)
+
 ## Features
 
 - **Public Contact Form**: Visitors submit inquiries (name, email, message) which instantly become leads with `NEW` status.
@@ -41,7 +58,7 @@ Navigate to the `server` directory and run:
 cd server
 mvn spring-boot:run
 ```
-The server starts at `http://localhost:8080`.
+The server starts at `http://localhost:8081` (or `http://localhost:8080`).
 
 ### 3. Frontend Setup & Run
 In another terminal, navigate to the `client` directory and run:
